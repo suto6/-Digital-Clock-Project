@@ -1,0 +1,38 @@
+body {
+    background-color: #2E2E2E;
+    color: #F0F8FF;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
+#Clock {
+    font-size: 3em;
+    background-color: orange;
+    color: #FFF;
+    padding: 20px 60px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+#Clock:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
